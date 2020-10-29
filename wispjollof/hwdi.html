@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="aos.css">
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <img src="img/WispTalkAfrica.6.png" width="200px" style="margin-top: 6px; @media screen and (min-width:1000px){ margin-left:40%;}">
+      <a href="index.html" class="active">Home</a>
+      <a href="#sec3">News</a>
+      <a href="#class">Contact</a>
+      <a href="#try">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+<div class="talk">
+    <h2>how we do it</h2>
+    <img src="img/drawkit-transport-scene-2.svg"width="200px">
+<p>We profile more than 20 companies every season with 12 episodes per season. Each episode, lasting not more than 15 minutes, will feature 1 company with revolutionary technologies delivering first class products and services.</p>
+    
+<i>follow us on:</i>
+<div class="ice">
+  <a href="https://www.facebook.com/groups/613854332737602"><div class="ikons i"></div></a>
+  <a href="https://twitter.com/WispTalkAfrica"><div class="ikons ii"></div></a>
+  <a href="https://www.youtube.com/channel/UCkI-wc81G3WRDrgV9DeXD_w"><div class="ikons iii"></div></a>
+</div>
+
+</div>
+<section class="foot">
+    <p>Copyrights ©2020 Silverchip Services. All Rights Reserved.</p>
+
+</section>
+
+<script src="aos.js"></script>
+<script>
+    var acc = document.getElementsByClassName('accordion');
+    var i;
+    var len = acc.length;
+    for(i = 0; i < len; i++) {
+      acc[i].addEventListener('click', function() {
+        this.classList.toggle('active');
+        var panel = this.nextElementSibling;
+        if(panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else{
+          panel.style.maxHeight = panel.scrollHeight + 'px'
+        }
+      })
+    }
+    AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+    
+</body>
+<script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/8fc7b89cedbc4ac9824576db1734960e3323f823b0554939bb4cfe06d8067a10.js"></script>
+
+</html>
